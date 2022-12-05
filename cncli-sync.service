@@ -1,0 +1,19 @@
+[Unit]
+Description=CNCLI Sync
+After=multi-user.target
+
+[Service]
+User=holo
+Type=simple
+Restart=always
+RestartSec=5
+LimitNOFILE=131072
+ExecStart=/home/holo/.cargo/bin/cncli sync --host 70.74.164.3 --port 6969 --db /home/holo/cardano-src/cncli/cncli.db
+KillSignal=SIGINT
+SuccessExitStatus=143
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=cncli-sync
+
+[Install]
+WantedBy=multi-user.target
