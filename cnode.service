@@ -1,0 +1,22 @@
+[Unit]
+Description=Cardano node service
+After=multi-user.target
+
+[Service]
+User=holo
+Type=simple
+ExecStart=/bin/bash -c '/home/holo/cardano-src/scripts/cnode.sh'
+RemainAfterExit=yes
+Restart=on-failure
+KillSignal=SIGINT
+RestartKillSignal=SIGINT
+TimeoutStopSec=300
+LimitNOFILE=32768
+RestartSec=15
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=cnode
+WorkingDirectory=~
+
+[Install]
+WantedBy=multi-user.target
