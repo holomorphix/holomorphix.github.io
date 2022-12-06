@@ -18,7 +18,7 @@ PORT=6969
 HOST=0.0.0.0
 
 # Run node
-/home/holo/.local/bin/cardano-node run --host-addr ${HOST} --port ${PORT} --database-path ${DB} --socket-path ${SOCKET} --config ${CONFIG} --topology ${TOPO}
+/home/holo/.local/bin/cardano-node run --host-addr ${HOST} --port ${PORT} --database-path ${DB} --socket-path ${SOCKET} --config ${CONFIG} --topology ${TOP}
 
 # Implement lines below to run as core node
 # Path to stake pool keys, addresses, and certificates
