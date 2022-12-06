@@ -4,6 +4,7 @@ After=multi-user.target
 
 [Service]
 User=holo
+Group=holo
 Type=simple
 ExecStart=/bin/bash -c '/home/holo/cardano-src/scripts/cnode.sh'
 RemainAfterExit=yes
@@ -16,7 +17,6 @@ RestartSec=15
 StandardOutput=journal
 StandardError=journal
 SyslogIdentifier=cnode
-WorkingDirectory=~
 
 [Install]
 WantedBy=multi-user.target
