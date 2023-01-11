@@ -1,2 +1,8 @@
-{"name":"Holomorphix","ticker":"HOLO","description":"Holomorphix Stake Pool -- proudly serving the Cardano community since December 2022","homepage":"https://www.holomorphix.xyz"}
+{
+    "name":"Holomorphix",
+    "ticker":"HOLO",
+    "description":"Holomorphix Stake Pool -- proudly serving the Cardano community since December 2022",
+    "homepage":"https://www.holomorphix.xyz",
+    "extended":"https://raw.githubusercontent.com/holomorphix/holomorphix.github.io/main/pool/poolmeta-extended.json"
+}
 
