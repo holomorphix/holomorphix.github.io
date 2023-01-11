@@ -1,13 +1,13 @@
 {
     "info": {
-        "url_png_icon_64x64": "https://github.com/holomorphix/holomorphix.github.io/blob/main/pool/logos/tiny/blue_white_tiny.png",
-        "url_png_logo": "https://github.com/holomorphix/holomorphix.github.io/blob/main/pool/logos/small/blue_white_small.png",
+        "url_png_icon_64x64": "https://github.com/holomorphix/holomorphix.github.io/blob/main/pool/logos/tiny/blue_white_tinier.png",
+        "url_png_logo": "https://github.com/holomorphix/holomorphix.github.io/blob/main/pool/logos/tiny/blue_white_tiny.png",
         "social": {
             "twitter_handle": "holomorphix",
             "github_handle": "holomorphix"
         }
     },
     "about": {
-        "me": "Ryan Epton & Jorden Roberts"
+        "me": "Ryan Epton & Jorden Roberts -- your friendly neighbourhood SPOs"
     }
 }
