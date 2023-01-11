@@ -1,3 +1,16 @@
 {
-  
+    "info": {
+        "url_png_icon_64x64": "https://github.com/holomorphix/holomorphix.github.io/blob/main/pool/logos/tiny/blue_white_tiny.png",
+        "url_png_logo": "https://github.com/holomorphix/holomorphix.github.io/blob/main/pool/logos/small/blue_white_small.png",
+        "social": {
+            "twitter_handle": "holomorphix",
+            "github_handle": "holomorphix"
+        }
+    },
+    "my-pool-ids": {
+        "0": ""
+    },
+    "telegram-admin-handle": {
+        "0": ""
+    }
 }
