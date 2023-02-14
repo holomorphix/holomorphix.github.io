@@ -1,7 +1,7 @@
 {
     "name":"Holomorphix",
     "ticker":"HOLO",
-    "description":"Cardano's only complex differentiable stake pool",
+    "description":"Cardano's first complex differentiable stake pool",
     "homepage":"https://www.holomorphix.xyz",
     "extended":"https://raw.githubusercontent.com/holomorphix/holomorphix.github.io/main/pool/poolmeta-extended.json"
 }
