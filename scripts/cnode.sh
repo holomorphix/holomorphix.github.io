@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Set home directory
-NODE=/home/holo/cardano-src/
+NODE=/home/holo/cardano-src
 
 # Configuration & topology file paths
 CONFIG=${NODE}/config/config.json
