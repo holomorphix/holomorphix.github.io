@@ -3,10 +3,10 @@ Description=Cardano node service
 After=multi-user.target
 
 [Service]
-User=holo
-Group=holo
+User=<USER>
+Group=<USER>
 Type=simple
-ExecStart=/bin/bash -c '/home/holo/cardano-src/scripts/cnode.sh'
+ExecStart=/bin/bash -c '/home/<USER>/cardano-src/scripts/cnode.sh'
 RemainAfterExit=yes
 Restart=on-failure
 KillSignal=SIGINT
